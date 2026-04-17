@@ -1,0 +1,4 @@
+*{box-sizing:border-box;margin:0;padding:0}body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'DM Sans',sans-serif;background:#f7faf2;color:#1a2e14}
+.inp{width:100%;padding:8px 10px;border-radius:8px;border:1px solid #c8d8b8;background:#fafdf6}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:8px;border:1px solid #2d6b22;background:#2d6b22;color:#fff;cursor:pointer}
+.card{background:#fff;border-radius:12px;border:1px solid #d8eacc;padding:16px}
