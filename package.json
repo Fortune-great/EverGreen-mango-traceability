@@ -1,0 +1,33 @@
+{
+  "name": "mango-traceability-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "nodemon --watch server --exec node server/index.js",
+    "dev:client": "vite",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "lint": "eslint . --ext .js,.jsx",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.4",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "qrcode": "^1.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "semver": "^7.5.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.0",
+    "@vitejs/plugin-react-swc": "^4.3.0",
+    "concurrently": "^8.2.0",
+    "eslint": "^8.52.0",
+    "nodemon": "^3.0.1",
+    "vite": "^5.1.0",
+    "vitest": "^1.2.0"
+  }
+}
